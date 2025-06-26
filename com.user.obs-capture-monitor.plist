@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>Label</key>
+    <string>com.user.obs-capture-monitor</string>
+    
+    <key>ProgramArguments</key>
+    <array>
+        <string>/Users/jake/.pyenv/versions/3.12.4/bin/python3</string>
+        <string>/Users/jake/github/huevos-y-bacon/obs_display_monitor/obs_capture_monitor_service.py</string>
+    </array>
+    
+    <key>RunAtLoad</key>
+    <true/>
+    
+    <key>KeepAlive</key>
+    <true/>
+    
+    <key>StandardOutPath</key>
+    <string>/var/log/obs_capture_monitor/obs_capture_monitor.log</string>
+    
+    <key>StandardErrorPath</key>
+    <string>/var/log/obs_capture_monitor/obs_capture_monitor_error.log</string>
+    
+    <key>WorkingDirectory</key>
+    <string>/Users/jake/github/huevos-y-bacon/obs_display_monitor</string>
+    
+    <key>EnvironmentVariables</key>
+    <dict>
+        <key>PATH</key>
+        <string>/Users/jake/.pyenv/shims:/Users/jake/.pyenv/versions/3.12.4/bin:/usr/local/bin:/usr/bin:/bin</string>
+    </dict>
+    
+    <key>ProcessType</key>
+    <string>Background</string>
+    
+    <key>ThrottleInterval</key>
+    <integer>10</integer>
+</dict>
+</plist>
