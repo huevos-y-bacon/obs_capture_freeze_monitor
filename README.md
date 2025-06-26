@@ -1,4 +1,4 @@
-# OBS Capture Monitor
+# OBS Capture Freeze Monitor
 
 A Python service that automatically monitors and restarts frozen capture sources in OBS Studio using the WebSocket API.
 
@@ -23,7 +23,7 @@ A Python service that automatically monitors and restarts frozen capture sources
 
 ```bash
 git clone <repository-url>
-cd obs_capture_monitor
+cd obs_capture_freeze_monitor
 ```
 
 1. Install dependencies:
