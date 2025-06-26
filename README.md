@@ -34,8 +34,9 @@ pip install -r requirements.txt
 
 1. Configure OBS WebSocket:
    - In OBS: Tools → WebSocket Server Settings
-   - Enable server on port 4455
-   - Set password: `uziPSvQHt8IC35sn` (or update `PASSWORD` in the script)
+      - Enable server on port 4455
+      - Generate, copy and and 
+2. Set `PASSWORD` in the script
 
 ## Usage
 
@@ -46,6 +47,8 @@ Run the service manually:
 ```bash
 python obs_capture_monitor_service.py
 ```
+
+This may fail due to missing log location - just follow the instructions.
 
 ### Install as macOS Service (Recommended)
 
