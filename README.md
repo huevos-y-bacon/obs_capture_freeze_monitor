@@ -125,3 +125,7 @@ If you see "websocket-client not installed" when running as a service, the Launc
 ## Credits
 
 Inspired by [yayuanli's OBS_Restart_Capture_Stuck_Source](https://github.com/yayuanli/OBS_Restart_Capture_Stuck_Source).
+
+## License
+
+MIT License - Feel free to use and modify! 
