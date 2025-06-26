@@ -13,8 +13,8 @@ A Python service that automatically monitors and restarts frozen capture sources
 
 ## Requirements
 
-- Python 3.7+
-- OBS Studio with WebSocket plugin enabled
+- Python 3.12+
+- OBS Studio with WebSocket plugin enabled - Tested with OBS Studio 31.0.3 (64 Bit) on Mac Sequoia 15.5 M3
 - `websocket-client` library
 
 ## Installation
